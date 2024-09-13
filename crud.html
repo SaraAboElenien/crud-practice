@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="w-75   mx-auto">
+
+        <label class="fw-bold mb-2" for="productName"><i class="fa-solid fa-link pe-2"></i>productName:</label>
+        <input name="" id="productName" class="w-100 form-control" placeholder="product Name" type="text">
+
+        <label class="fw-bold mb-2" for="productCount"><i class="fa-solid fa-link pe-2"></i>productCount:</label>
+        <input name="" id="productCount" class="w-100 form-control" placeholder="product Count" type="number">
+
+
+        <label class="fw-bold mb-2" for="productPrice"><i class="fa-solid fa-link pe-2"></i>productPrice:</label>
+        <input name="" id="productPrice" class="w-100 form-control" placeholder="product Price" type="number">
+
+        <label class="fw-bold mb-2" for="SiteURL"><i class="fa-solid fa-link pe-2"></i>Site URL:</label>
+        <input name="" id="SiteURL" class="w-100 form-control" placeholder="Website URL" type="url">
+
+        <label class="fw-bold mb-2" for="productCategory"><i class="fa-solid fa-link pe-2"></i>productCategory:</label>
+        <input name="" id="productCategory" class="w-100 form-control" placeholder="productCategory" type="text">
+
+
+        <button id="updateBtn" class=" btn btn-outline-danger  text-center mt-4">add Product</button>
+    </div>
+
+<div class="w-75 mx-auto  py-4">
+    <label  for="searchInput">Search...</label>
+    <input name="" id="searchInput" class="form-control"  type="text">
+
+</div>
+
+
+<div class=" w-75 mx-auto py-3">
+    <table class=" mt-4 text-center table  text-white ">
+        <thead>
+            <tr>
+                <th class="text-capitalize ">Index </th>
+                <th class="text-capitalize">productName </th>
+                <th class="text-capitalize">productPrice </th>
+                <th class="text-capitalize">productCount </th>
+                <th class="text-capitalize">productCategory </th>
+                <th class="text-capitalize">Increase </th>
+                <th class="text-capitalize">Decrease </th>
+                <th class="text-capitalize">Visit </th>
+                <th class="text-capitalize">Delete </th>
+                <th class="text-capitalize">Update </th>
+
+            </tr>
+        </thead>
+        <tbody id="tablecontent"> </tbody>
+    </table>
+
+
+
+
+</div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/crud.js"></script>
+
+</body>
+</html>
